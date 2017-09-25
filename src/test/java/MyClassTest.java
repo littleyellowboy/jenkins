@@ -12,6 +12,6 @@ public class MyClassTest {
     public final void test1(){
         MyClass instance1 = new MyClass("test");
 
-        Assert.assertThat(instance1.getName(),is("test"));
+        Assert.assertThat(instance1.getName(),is("test "));
     }
 }
